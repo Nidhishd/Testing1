@@ -1,14 +1,15 @@
 Environment
 +++++++++++
 
-Installed and configured Minikube in Oracle VirtualBox Manager.
-Downloaded Kubectl in my local Windows10 Machine and set the environment variable.
-Deployed Wordpress-MariaDB Application using Helm Charts within the Minikube created Kubernetes environment..
+1). Installed and configured Minikube in Oracle VirtualBox Manager.
+2). Downloaded Kubectl in my local Windows10 Machine and set the environment variable.
+3). Deployed Wordpress-MariaDB Application using Helm Charts within the Minikube created Kubernetes environment..
 
 
 
 
 Deployment- Wordpress with Helm
+++++++++++++++++++++++++++++++++
 
 
 ## Downloaded and initialized helm.
@@ -165,6 +166,7 @@ Deployment yaml.
 
 
 Wordpress
++++++++++
 
 
 # kubectl edit pod wordpress-7676f89ccb-78v4l
@@ -329,6 +331,7 @@ status:
 
 
 MariaDB
++++++++
 
 #kubectl edit pod wordpress-mariadb-0
 
